@@ -56,7 +56,7 @@ def salvar_no_banco_de_dados(dados, banco="produtos.db"):
     print(f"Dados do produto salvos com sucesso no banco de dados '{banco}'.")
 
 def main():
-    link_anuncio = "https://produto.mercadolivre.com.br/MLB-2223878983-conversores-midia-gigabit-1000-mb-par-a-b-fibra-optica-_JM"
+    link_anuncio = "https://produto.mercadolivre.com.br/MLB-{MLB}-conversores-midia-gigabit-1000-mb-par-a-b-fibra-optica-_JM"
 
     dados_produto = obter_dados_do_produto(link_anuncio)
 
